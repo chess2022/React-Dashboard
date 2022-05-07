@@ -1,3 +1,4 @@
+import React from "react"
 import './App.css';
 import Sidebar from "./components/Sidebar"
 import Reviews from "./components/Reviews";
@@ -7,7 +8,7 @@ import Visitors from "./components/Visitors";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Sidebar />
       <Reviews />
       <Average />

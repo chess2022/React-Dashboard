@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Sidebar() {
     return (
-      <div className="sidebar">
+      <div className="sidebar" id="sidebar">
         <span>Dashboard</span>
         <span>Widget</span>
         <span>Reviews</span>
