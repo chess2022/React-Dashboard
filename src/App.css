@@ -77,3 +77,8 @@ span {
 
 
 /* visitors */
+
+.visitors--graph {
+  display: block;
+  margin: auto;
+}

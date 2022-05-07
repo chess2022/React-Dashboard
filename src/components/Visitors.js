@@ -5,7 +5,7 @@ export default function Visitors() {
     <div className="visitors" id="visitors">
       <h1 className="sectionTitle">Website Visitors</h1>
       <p>821</p>
-      <img src="../images/Asset3.png" className="visitors--graph" />
+      <img src="../asset3.png" className="visitors--graph" />
     </div>
   );
 }
