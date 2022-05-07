@@ -3,26 +3,57 @@
   display: grid;
   grid-template-areas: "sidebar reviews average sentiment"
   "sidebar visitors visitors visitors" ;
+  width: 700px;
+  height: 500px;
+  justify-content: center;
+  margin: 50px 50px;
 }
 
 .app > #sidebar {
   grid-area: sidebar;
+  width: 150px;
+  height: 530px;
 }
 
 .app > #reviews {
   grid-area: reviews;
+  width: 150px;
+  height: 200px;
 }
 
 .app > #average {
   grid-area: average;
+  width: 150px;
+  height: 200px;
 }
 
 .app > #sentiment {
   grid-area: sentiment;
+  width: 150px;
+  height: 200px;
 }
 
 .app > #visitors {
   grid-area: visitors;
+  width: 510px;
+  height: 300px;
+}
+
+.sectionTitle {
+  font-size: 15px;
+}
+
+span {
+  font-size: 12px;
+  margin-bottom: 10px;
+
+}
+.sidebar, .reviews, .average, .sentiment, .visitors {
+  background-color: rgb(50, 50, 50);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  
 }
 
 /* sidebar */
@@ -30,12 +61,14 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  padding: 20px;
   align-items: center;
+  justify-content: center;
+
 }
 
 /* reviews */
-
+.reviews {
+}
 
 /* average */
 
